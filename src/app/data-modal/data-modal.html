@@ -1,0 +1,9 @@
+<div>
+  <div mat-dialog-title>
+    {{data.title}}
+  </div>
+  {{data|json}}
+  <div mat-dialog-actions>
+    <button mat-raised-button (click)="close()" class="mr-auto">Close</button>
+  </div>
+</div>
